@@ -8,6 +8,8 @@
 
     <!-- build:css styles/vendor.css -->
     <link rel="stylesheet" type="text/css" href="../bower_components/normalize-css/normalize.css">
+    <link rel="stylesheet" type="text/css" href="../bower_components/fluidbox/css/fluidbox.css">
+
 
     
     <!-- endbuild -->
@@ -18,51 +20,90 @@
   </head>
 
   <body>
+    <!--<nav id="nav">
+        <div id="toggle_button" ></div> 
+      </nav> -->
+
+   <!-- <a id="nav-toggle" href="#"><span></span></a>
+    <div id="sidebar">
+      <ul>
+        <li>'Menu001'</li>
+        <li>'Menu002'</li>
+        <li>'Menu003'</li>
+        <li>'Menu004'</li>
+        <li>'Menu005'</li>
+      </ul>
+    </div> -->
+
+    <div class="status"></div>
     <header class="page-nav">
       <h1 class="logo">ZAIN<br> IBRAHIM<br> BAWAHAB</h1>
-      <nav clss="nav-site">
+      <nav class="nav-site">
         <ul class="inline">
-          <li>Portfolio</li>
-          <li>Skills</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
       </nav>
-
+      
     </header>
 
     <main class="site-content">
       <section id="Home">
           <img class="Home-image" src="images/home-image.jpg">
       </section>
+
      <!--  Home section ends here. -->
 
+<div class="sticky-wrapper">     
  <nav id="nav-site2">
   <img class="nav-imgLogo" src="images/Logo.png">
-  <h1 class="logo2">ZAIN<br> IBRAHIM<br> BAWAHAB</h1>
+  <h1 class="logo2"><a href="#Home">ZAIN<br>IBRAHIM<br>BAWAHAB</a></h1>
 
         <ul class="inline" class="color-change">
-          <li>Portfolio</li>
-          <li>Skills</li>
-          <li>About</li>
-          <li>Contact</li>
+          <li><a href="#Portfolio">Portfolio</a></li>
+          <li><a href="#Skills">Skills</a></li>
+          <li><a href="#About">About</a></li>
+          <li><a href="#Contact">Contact</a></li>
         </ul>
-      </nav>
+
+   <!-- <nav id="nav-2">
+          <div id="toggle_button"></div>
+    </nav> -->
+    <a id="nav-toggle" href="#"><span></span></a>
+    <div id="slidebar">
+      <ul class="slide-list">
+        <li><a href="#Portfolio">Portfolio</a></li>
+        <li><a href="#Skills">Skills</a></li>
+        <li><a href="#About">About</a></li>
+        <li><a href="#Contact">Contact</a></li>
+      </ul>
+    </div>
+
+   
+
+    
+
+  </nav>
+</div>
 
      <!-- Portfolio Section  -->
       <section id="Portfolio">
 
-        <div class="Portfolio-content">
+        <div class="Portfolio-content clearfix">
           
           <div class="grid">
-            <div class="Image">
-              <img class="thumbnail-1" src="https://m1.behance.net/rendition/modules/154328801/disp/18adb7076dcbf004cf1f4d8bc147c38f.jpg">
+            <div class="Image" class="active">
+              <a href="https://m1.behance.net/rendition/modules/154328801/disp/18adb7076dcbf004cf1f4d8bc147c38f.jpg" class="is-zoomable"> <img class="thumbnail-1" src="https://m1.behance.net/rendition/modules/154328801/disp/18adb7076dcbf004cf1f4d8bc147c38f.jpg">
+              </a>
             </div>
           </div> 
 
             <div class="grid">
               <div class="Image">
-              <img class="thumbnail-2" src="https://m1.behance.net/rendition/modules/123343643/disp/6c4ff4e05dad9139f5e5177eccbe3975.jpg">
+              <a href="https://m1.behance.net/rendition/modules/123343643/disp/6c4ff4e05dad9139f5e5177eccbe3975.jpg" class="is-zoomable"><img class="thumbnail-2" src="https://m1.behance.net/rendition/modules/123343643/disp/6c4ff4e05dad9139f5e5177eccbe3975.jpg">
+              </a>
               </div>
             </div>
 
@@ -85,9 +126,12 @@
             </div>
 
             <div class="grid">
-              <div class="Image">
-              <img class="thumbnail-6" src="images/Ani.png">
+              <div class="hover">
+                <div class="Image">
+              
+                <img class="thumbnail-6" src="images/Ani.png">
                 
+                </div>
               </div>
             </div>
 
@@ -206,7 +250,7 @@
 
       <!-- Skills Section -->
       <section id="Skills">
-        <div class="Skills-content">
+        <div class="Skills-content clearfix">
 
           <div class="skills-grid">
             <div class="skills-column-1">
@@ -243,11 +287,13 @@
 
       <!-- About Section -->
       <section id="About">
-        <div class="About-content">
+        <div class="About-content clearfix">
 
           <div class="About-grid">
-            <div class="About-column">
+            <div class="About-column">  
+              <div class="image-radius">
               <img class="face" src="images/face.jpg">
+              </div>
             </div>
           </div>
 
@@ -256,21 +302,40 @@
 
               <h1 class="logo3">ZAIN<br> IBRAHIM<br> BAWAHAB</h1>
 
-              <p class="About-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste.</p>
+              <p class="About-text"> Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste. Lorem ipsum dolor sit amet, consectetur adipisicing elit. Ad quia, dicta omnis illo, dignissimos unde culpa. Harum, nisi, earum fugit voluptas impedit totam adipisci dolore at velit magni delectus iste.</p>
 
             </div>
           </div>
-
-
-
         </div>
 
       </section>
 
     </main>
 
-    <footer>
 
+    <footer>
+      <section id="Contact">
+        <div class="Contact-Items clearfix">
+          <h1 class="logo4">ZAIN<br> IBRAHIM<br> BAWAHAB</h1>
+
+          <div class="Contact-grid">
+          <div class= "Connect">
+            <h3>Connect</h3>
+            <p>Email:<br> zainbawahab@gmail.com</p>
+            <p>Telephone:<br> 647-466-7645</p>
+          </div>
+          </div>
+
+          <div class="Contact-grid">
+          <div class= "contact-info">
+            <h3 class="Footer-heading">Contact</h3>
+            <p>Email:<br> zainbawahab@gmail.com</p>
+            <p>Telephone:<br> 647-466-7645</p>  
+          </div>
+          </div>
+
+        </div>
+      </section>
     </footer>
 
 
@@ -285,8 +350,13 @@
     <!-- build:js scripts/main.js -->
 
     <!-- I have made the below line comment, use it when needed.-->
-   <!-- <script src="../bower_components/jquery/dist/jquery.js"></script>
-    <script src="scripts/main.js"></script> -->
+   <script src="../bower_components/jquery/dist/jquery.js"></script>
+   <script src="../bower_components/SlipHover-master/src/jquery.min.js"></script>
+   <script src="../bower_components/SlipHover-master/src/jquery.sliphover.min.js"></script>
+   <script src="../bower_components/waypoints/lib/jquery.waypoints.min.js"></script>
+   <script src="../bower_components/waypoints/lib/shortcuts/sticky.min.js"></script>
+   <script src="../bower_components/fluidbox/jquery.fluidbox.js"></script>
+    <script src="scripts/main.js"></script> 
 
     <!-- endbuild -->
     
