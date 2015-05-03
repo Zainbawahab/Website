@@ -27,19 +27,15 @@
   		$('#nav-site2').Waypoint('sticky');
   	});*/
 
-  $('.is-zoomable').fluidbox({
+  /*$('.is-zoomable').fluidbox({
 
-  });
+  });*/
 
-	/*"This is what I tried doing"
-	$('.is-zoomable').fluidbox(function(){
-  		$('Image').css('overflow', 'inherit');
-  	});*/
-
-  $('.Image').on('click',function(e) {
+  /*This code was for fluidbox*/
+  /*$('.Image').on('click',function(e) {
     e.preventDefault();
     $(this).toggleClass('active');
-  });
+  });*/
 
   $('#nav-toggle').on('click', function(e) {
     e.preventDefault();
