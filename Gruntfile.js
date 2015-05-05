@@ -19,7 +19,8 @@ module.exports = function (grunt) {
     // Configurable paths
     var config = {
         app: 'app',
-        dist: 'dist'
+        dist: 'dist',
+        components: 'bower_components'
     };
 
     // Define the configuration for all the tasks
@@ -210,6 +211,18 @@ module.exports = function (grunt) {
                   cwd: '<%= config.app %>/scripts',
                   dest: '<%= config.dist %>/scripts/',
                   src: '{,*/}*.js'
+                },{
+                  expand: true,
+                  dot: true,
+                  cwd: '<%= config.components %>/Font-Awesome/fonts',
+                  dest: '<%= config.dist %>/fonts/',
+                  src: '*'
+                },{
+                  expand: true,
+                  dot: true,
+                  cwd: '<%= config.components %>/lightbox2/img',
+                  dest: '<%= config.dist %>/images/',
+                  src: '*.{png,gif}'
                 }]
             },
             styles: {
