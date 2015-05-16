@@ -27,7 +27,7 @@ html {
   margin-top: 30px;
   line-height: 27px;
   margin-left: 20px;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 300;
   font-size: 35px; }
 
@@ -37,7 +37,7 @@ html {
   margin-top: 18px;
   margin-left: 2px;
   line-height: 17px;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-size: 20px;
   font-weight: 300; }
 
@@ -48,7 +48,7 @@ html {
 .logo3 {
   margin: 0px;
   line-height: 35px;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-size: 40px;
   font-weight: 300;
   color: white;
@@ -63,7 +63,7 @@ html {
   margin-top: 40px;
   line-height: 33px;
   margin-left: 20px;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 300;
   font-size: 40px;
   text-align: left;
@@ -115,7 +115,7 @@ h3 {
 .inline > li {
   display: inline-block;
   margin-left: 70px;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 300;
   font-size: 25px;
   cursor: pointer; }
@@ -126,7 +126,7 @@ h3 {
   padding: 20px 10px 30px; }
 
 .slide-list > li {
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 300;
   font-size: 25px;
   cursor: pointer;
@@ -264,7 +264,7 @@ li:hover {
   color: white;
   text-align: center;
   line-height: 49px;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 600; }
 
 .graphic {
@@ -300,12 +300,12 @@ span {
 
 .contact-info {
   color: white;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 300; }
 
 .Connect {
   color: white;
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 300; }
 
 .active {
@@ -372,7 +372,7 @@ span {
 
 .copyrights-text {
   color: rgba(255, 255, 255, 0.3);
-  font-family: Myriad Pro;
+  font-family: Myriad Pro, sans-serif;
   font-weight: 100;
   font-size: 17px;
   text-align: right;
