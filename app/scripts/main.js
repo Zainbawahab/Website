@@ -46,6 +46,10 @@
     coverRatio: 0.75
   });
 
+ 
+
+
+
 
   });
 })(jQuery);
