@@ -23,6 +23,9 @@ $mobile: new-breakpoint(min-width em(400));
 /*#Portfolio {
 	@include outer-container;
 }*/
+.scroll {
+	width: 100%;
+}
 
 .logo {
 	float: left;
