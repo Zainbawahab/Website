@@ -42,9 +42,9 @@
     $(this).add('#slidebar').toggleClass('is-open'); 
   });
 
-  /*$('.img-holder').imageScroll({
+  $('.img-holder').imageScroll({
     coverRatio: 0.75
-  });*/
+  });
 
  
 
