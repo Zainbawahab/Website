@@ -18,6 +18,9 @@ html {
 /*#Portfolio {
 	@include outer-container;
 }*/
+.scroll {
+  width: 100%; }
+
 .logo {
   float: left;
   margin: 0px;
