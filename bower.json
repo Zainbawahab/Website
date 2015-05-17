@@ -10,8 +10,7 @@
     "fluidbox": "~1.4.3",
     "lightbox2": "~2.7.1",
     "Font-Awesome": "~4.3.0",
-    "Parallax-ImageScroll": "~0.2.0",
-    "Scroll-To": "*"
+    "Parallax-ImageScroll": "~0.2.0"
   },
   "devDependencies": {}
 }
